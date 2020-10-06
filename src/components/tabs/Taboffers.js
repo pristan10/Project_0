@@ -14,7 +14,7 @@ class Taboffers extends Component {
     }
     changes=()=>{
         this.setState({
-            watche:'watched'
+            watche:'Added to watched list'
         })
     }
     decrease=()=>{

@@ -3,6 +3,7 @@ import { InfoConsumer } from '../context';
 import Info from '../Info'; 
 import Add from '../layouts/Add';
 import Things from './Things';
+import Tabtake1 from '../tabs/Tabtake1';
 
 
 
@@ -24,6 +25,7 @@ class Home extends Component {
                 </div>
                 <Add />
                 <Things />
+                {/* <Tabtake1 /> */}
             </div>
             
             

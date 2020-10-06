@@ -19,15 +19,15 @@ import Review from '../Review';
                       title,
                       maps,
                       description
-                  }=data.detailInfo;
+                  }=data.detailInf;
 
                   return(
 
                     <React.Fragment>
                         <div className="container-fluid align-items-center thander ">
-                            <h1 className='display-1 font-weight-bold'>{headerTitle}</h1>
+                            <h1 className='display-1 font-weight-bold jumbotron jumbotron-fluid text-center'>{headerTitle}</h1>
                             <h4 className="display-5">{headerSubTitle}</h4>
-                            <p>{headerText}</p>
+                            <p>{headerText}</p> 
                             <div className="container mt-5  logose">
                                 <div className="row justify-content-center">
                                     <div className="col-2">

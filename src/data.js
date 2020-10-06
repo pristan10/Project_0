@@ -118,52 +118,282 @@ export const reviews = [
 
 export const detailInfo = {
   id: 1,
-  headerTitle: 'All in One ',
-  headerSubTitle: 'Online Shoping In Sri Lanka',
-  headerText:'We are contacting trusted online shoping in srilanka, most of the people are using our website to buy thing, here you can buy and can search shops near to you ',
-  title: 'Our Place ',
+  Productname: 'Lorem ipsum',
+  Price:1200,
+  incard:false,
+  count:0,
+  total:0,
+  img: '.././images/hi10.jpeg'
+  
+};
+export const detailInf = {
+  id: 1,
+  headerTitle: 'All In One',
+  headerSubTitle: 'online Shopping',
+  headerText:
+    'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odit laboriosam cum recusandae quas? Natus, alias architecto error, sunt quae non placeat a eius minus maiores libero laborum perferendis, nobis qui?',
+  title: 'Molestias officia excepturi',
   description:
-    'Here we are tell about us and our company infomations and customers reviews',
+    'Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates qui voluptate odio quod doloremque unde reprehenderit velit quaerat. Deserunt voluptatem natus suscipit aliquid, eligendi sequi dicta porro? Laudantium, libero est?',
   img: '.././images/garaj.jpg',
   maps:
     'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1123.3850145412064!2d37.600589158335865!3d55.72774864513666!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46b54b0be3ac9d11%3A0x735806d25b3bdc55!2z0JzRg9C30LXQuSDRgdC-0LLRgNC10LzQtdC90L3QvtCz0L4g0LjRgdC60YPRgdGB0YLQstCwIMKr0JPQsNGA0LDQtsK7!5e0!3m2!1sru!2sru!4v1547763408711'
 };
 
-export const news = [
+export const Products = [
   {
     id: 1,
-    newsTitle: 'Lorem ipsum',
-    newsText:
-      'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iure maiores optio praesentium voluptate natus velit atque eaque eos quae perspiciatis. Perferendis reprehenderit aspernatur excepturi sint saepe quam laboriosam provident ducimus.'
+    Productname: 'Lorem ipsum',
+    Price:220,
+    incard:false,
+    count:0,
+    total:0,
+    img: '.././images/hi10.jpeg',
+    wish:0
   },
   {
     id: 2,
-    newsTitle: 'Lorem ipsum',
-    newsText:
-      'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iure maiores optio praesentium voluptate natus velit atque eaque eos quae perspiciatis. Perferendis reprehenderit aspernatur excepturi sint saepe quam laboriosam provident ducimus.'
+    Productname: ' VigoraDolive',
+    Price:120,
+    incard:false,
+    count:0,
+    total:0,
+    img: '.././images/hi9.jpeg',
+    wish:0
   },
   {
     id: 3,
-    newsTitle: 'Lorem ipsum',
-    newsText:
-      'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iure maiores optio praesentium voluptate natus velit atque eaque eos quae perspiciatis. Perferendis reprehenderit aspernatur excepturi sint saepe quam laboriosam provident ducimus.'
+    Productname: 'oreum',
+    Price:300,
+    incard:false,
+    count:0,
+    total:0,
+    img: '.././images/hi12.jpeg',
+    wish:0
   },
   {
     id: 4,
-    newsTitle: 'Lorem ipsum',
-    newsText:
-      'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iure maiores optio praesentium voluptate natus velit atque eaque eos quae perspiciatis. Perferendis reprehenderit aspernatur excepturi sint saepe quam laboriosam provident ducimus.'
+    Productname: 'Bergamont',
+    Price:400,
+    incard:false,
+    count:0,
+    total:0,
+    img: '.././images/hi9.jpeg',
+    wish:0
   },
   {
     id: 5,
-    newsTitle: 'Lorem ipsum',
-    newsText:
-      'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iure maiores optio praesentium voluptate natus velit atque eaque eos quae perspiciatis. Perferendis reprehenderit aspernatur excepturi sint saepe quam laboriosam provident ducimus.'
+    Productname: 'Marseille ',
+    Price:620,
+    incard:false,
+    count:0,
+    total:0,
+    img: '.././images/hi8.jpeg',
+    wish:0
   },
   {
     id: 6,
-    newsTitle: 'Lorem ipsum',
-    newsText:
-      'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iure maiores optio praesentium voluptate natus velit atque eaque eos quae perspiciatis. Perferendis reprehenderit aspernatur excepturi sint saepe quam laboriosam provident ducimus.'
+    Productname: 'Lor Provense',
+    Price:410,
+    incard:false,
+    count:0,
+    total:0,
+    img: '.././images/hi7.jpeg',
+    wish:0
+  },
+  {
+    id: 7,
+    Productname: 'Fresh Regal ',
+    Price:700,
+    incard:false,
+    count:0,
+    total:0,
+    img: '.././images/hi6.jpeg',
+    wish:0
+  },
+  {
+    id:8,
+    Productname: ' Big wash ',
+    Price:350,
+    incard:false,
+    count:0,
+    total:0,
+    img: '.././images/hi11.jpeg',
+    wish:0
+  },
+  {
+    id: 9,
+    Productname: 'Lorem Rosta',
+    Price:310,
+    incard:false,
+    count:0,
+    total:0,
+    img: '.././images/hi5.jpeg',
+    wish:0
+  },
+  {
+    id: 13,
+    Productname: 'White Doctor ',
+    Price:140,
+    incard:false,
+    count:0,
+    total:0,
+    img: '.././images/hi4.jpeg',
+    wish:0
+  },
+  {
+    id: 10,
+    Productname: 'Mr Fresh',
+    Price:100,
+    incard:false,
+    count:0,
+    total:0,
+    img: '.././images/hi3.jpeg',
+    wish:0
+  },
+  {
+    id: 11,
+    Productname: ' Gentle',
+    Price:250,
+    incard:false,
+    count:0,
+    total:0,
+    img: '.././images/hi2.jpeg',
+    wish:0
+  },
+  {
+    id: 12,
+    Productname: 'Sparsh ',
+    Price:115,
+    incard:false,
+    count:0,
+    total:0,
+    img: '.././images/hi1.jpeg',
+    wish:0
   }
 ];
+
+export const Products1 = [
+  {
+    id: 111,
+    Productname: 'Lorem ipsum',
+    Price:220,
+    incard:false,
+    count:0,
+    total:0,
+    img: '.././images/th13.jpeg'
+  },
+  {
+    id: 21,
+    Productname: ' VigoraDolive',
+    Price:120,
+    incard:false,
+    count:0,
+    total:0,
+    img: '.././images/th9.jpeg'
+  },
+  {
+    id: 31,
+    Productname: 'oreum',
+    Price:300,
+    incard:false,
+    count:0,
+    total:0,
+    img: '.././images/th12.jpeg'
+  },
+  {
+    id: 14,
+    Productname: 'Bergamont',
+    Price:400,
+    incard:false,
+    count:0,
+    total:0,
+    img: '.././images/th9.jpeg'
+  },
+  {
+    id: 15,
+    Productname: 'Marseille ',
+    Price:620,
+    incard:false,
+    count:0,
+    total:0,
+    img: '.././images/th8.jpeg'
+  },
+  {
+    id: 16,
+    Productname: 'Lor Provense',
+    Price:410,
+    incard:false,
+    count:0,
+    total:0,
+    img: '.././images/th7.jpeg'
+  },
+  {
+    id: 17,
+    Productname: 'Fresh Regal ',
+    Price:700,
+    incard:false,
+    count:0,
+    total:0,
+    img: '.././images/th6.jpeg'
+  },
+  {
+    id:18,
+    Productname: ' Big wash ',
+    Price:350,
+    incard:false,
+    count:0,
+    total:0,
+    img: '.././images/th11.jpeg'
+  },
+  {
+    id: 19,
+    Productname: 'Lorem Rosta',
+    Price:310,
+    incard:false,
+    count:0,
+    total:0,
+    img: '.././images/th5.jpeg'
+  },
+  {
+    id: 113,
+    Productname: 'White Doctor ',
+    Price:140,
+    incard:false,
+    count:0,
+    total:0,
+    img: '.././images/th4.jpeg'
+  },
+  {
+    id: 110,
+    Productname: 'Mr Fresh',
+    Price:100,
+    incard:false,
+    count:0,
+    total:0,
+    img: '.././images/th3.jpeg'
+  },
+  {
+    id: 115,
+    Productname: ' Gentle',
+    Price:250,
+    incard:false,
+    count:0,
+    total:0,
+    img: '.././images/th2.jpeg'
+  },
+  {
+    id: 112,
+    Productname: 'Sparsh ',
+    Price:115,
+    incard:false,
+    count:0,
+    total:0,
+    img: '.././images/th1.jpeg'
+  }
+];
+
+
+
+
+

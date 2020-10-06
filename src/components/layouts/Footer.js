@@ -3,7 +3,7 @@ import React from 'react'
  function Footer() {
     return (
        <div className="main-footer mt-5" style={{ backgroundColor:"#343a40", color:'white'}}>
-           <div className="container">
+           <div className="container pt-5" style={{ marginTop:'20px'}}>
                <div className="row">
                    <div className="col-md-3">
                        <ul className="list-unstyled">

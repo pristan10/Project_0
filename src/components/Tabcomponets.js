@@ -5,6 +5,7 @@ import Tabbaby from './tabs/Tabbaby';
 import Taboffer from './tabs/Taboffer';
 import Tabhand from './tabs/Tabhand';
 import Taboffers from './tabs/Taboffers'
+import Tabtake from './tabs/Tabtake';
 
 
 class Tabcomponets extends Component {
@@ -17,31 +18,37 @@ class Tabcomponets extends Component {
               </div>
                 <Tabs className="" style={{}}>
                     <TabList className="pb-5" style={{listStyleType:'none',display:'inline-block', fontSize:'1rem',display:'grid', gridTemplateColumns:'repeat(5,1fr)'}}>
+                    <Tab>
+                           <h3>Hand Wash</h3>
+                       </Tab>
+{/*                        
                        <Tab>
                            <h3>Special Offer</h3>
-                       </Tab>
+                       </Tab> */}
                        
                         <Tab>
-                       <h3>Baby</h3>
+                       <h3>Offer</h3>
                         </Tab>
                       
                         <Tab>
-                        <h3>Bakery</h3>
+                        <h3> Baby</h3>
     
                         </Tab>
 
                         <Tab>
-                        <h3>Diary</h3>
+                        <h3>Bakery</h3>
                             
                         </Tab>
-                        <Tab><h3>handwash</h3></Tab>
+                        <Tab><h3>  Diary </h3></Tab>
                     </TabList>
+                    <TabPanel> <Tabtake  /></TabPanel>
+                
                     <TabPanel> <Taboffers  /></TabPanel>
                 
                     <TabPanel> <Tabalcohol  /></TabPanel>
                     <TabPanel>  <Tabbaby /></TabPanel>
                     <TabPanel><Taboffer /></TabPanel>
-                    <TabPanel><Tabhand/></TabPanel>
+                    {/* <TabPanel><Tabhand/></TabPanel> */}
 
 
 

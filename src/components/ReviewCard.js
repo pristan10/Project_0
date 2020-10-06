@@ -6,8 +6,7 @@ import './review.css'
     render() {
         const { id, name, avatar, comment} =this.props.person;
         return (
-            <InfoConsumer>
-                {data=>(
+            <div>
                     <div className="media mt-5 bordere">
                         <img 
                         src={avatar}
@@ -20,8 +19,7 @@ import './review.css'
                             <p>{comment}</p>
                         </div>
                     </div>
-                )}
-            </InfoConsumer>
+                    </div>
         )
     }
 }
